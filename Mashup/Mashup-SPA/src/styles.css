@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* default bootstrap / font-awesome  */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+/* bootswatch styles */
+@import '../node_modules/bootswatch/dist/slate/bootstrap.min.css';
+
+body{
+	margin-top:60px;
+}
+/* costum Styles */
+.icon{
+	font-size:20px;
+}
+
+.carousel-control {
+    cursor: pointer;
+}

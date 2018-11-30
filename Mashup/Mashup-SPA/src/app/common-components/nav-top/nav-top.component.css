@@ -1,0 +1,13 @@
+.dropdown-toggle, .dropdown-item{
+    cursor: pointer;
+}
+
+.navbar .nav-link, .navbar .navbar-brand{
+	border: none;
+}
+.favicon {
+    padding: 0;
+}
+.favicon-img {
+    max-height: 40px;
+}

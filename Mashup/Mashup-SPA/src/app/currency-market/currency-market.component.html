@@ -1,0 +1,7 @@
+<div class="container">
+  <div class="row">
+    <div class="col-3" *ngFor="let coin of coins">
+      <app-coin-display [coin]="coin" [currency]="currency"></app-coin-display>
+    </div>
+  </div>
+</div>

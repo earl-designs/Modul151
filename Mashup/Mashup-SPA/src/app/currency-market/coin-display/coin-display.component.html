@@ -1,0 +1,14 @@
+<div class="card my-2">
+  <div class="card-header">
+    {{coin.Name}} / {{coin.Volume_24h}}
+  </div>
+  <div class="card-body">
+    <p>BTC: {{coin.Price_btc}}</p>
+    <p>$: {{coin.Price_usd}}</p>
+    <p>€: {{coin.Price_eur}}</p>
+    <p>CHF: {{coin.Price_eur * currency.rates.CHF}}</p> 
+  </div>
+  <div class="card-footer">
+    <p>{{currency.date}}</p>
+  </div>
+</div>
